@@ -1,0 +1,49 @@
+name: agrigrow
+description: Description
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^4.0.3+3
+  firebase_core: ^1.0.1
+  firebase_auth: ^1.0.1
+  cloud_firestore: ^1.0.1
+  shared_preferences: ^2.0.4
+  fluttertoast: ^7.1.8
+  http: ^0.13.0
+  http_parser: ^4.0.0
+  connectivity: ^3.0.2
+  flutter_launcher_icons: ^0.9.0
+  url_launcher: ^6.0.2
+  html: ^0.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/agrigrow.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - data.json
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+    - family: Source Sans Pro
+      fonts:
+        - asset: fonts/SourceSansPro-Regular.ttf
